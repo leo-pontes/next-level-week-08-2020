@@ -1,0 +1,59 @@
+Arguments: 
+  /home/leonardo/.nvm/versions/node/v14.4.0/bin/node /usr/share/yarn/bin/yarn.js add expo
+
+PATH: 
+  /home/leonardo/.nvm/versions/node/v14.4.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/app/Leonardo/product/11.2.0/client_1/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/CollabNet:/mnt/c/Program Files (x86)/Embarcadero/RAD Studio/12.0/bin:/mnt/c/Users/Public/Documents/RAD Studio/12.0/Bpl:/mnt/c/Program Files (x86)/Embarcadero/RAD Studio/12.0/bin64:/mnt/c/Users/Public/Documents/RAD Studio/12.0/Bpl/Win64:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/GitExtensions/:/mnt/c/Program Files/Microsoft SQL Server/110/Tools/Binn/:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/140/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/140/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/140/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Microsoft/Web Platform Installer/:/mnt/c/Program Files/Java/jdk1.8.0_251/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/Leonardo/AppData/Local/Programs/Python/Python38-32/Scripts/:/mnt/c/Users/Leonardo/AppData/Local/Programs/Python/Python38-32/:/mnt/c/Users/Leonardo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Leonardo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Leonardo/.dotnet/tools:/mnt/c/Users/Leonardo/AppData/Roaming/npm:/mnt/c/Users/Leonardo/AppData/Local/Programs/Azure Data Studio/bin:/mnt/c/Users/Leonardo/AppData/Local/Yarn/bin:/mnt/c/Users/Leonardo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Leonardo/.dotnet/tools:/snap/bin:/home/leonardo/.yarn/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/share/yarn/lib/cli.js:141375:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:768:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:480:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "@types/react": "~16.9.41",
+      "@types/react-native": "~0.62.13",
+      "typescript": "~3.9.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
