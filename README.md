@@ -4,19 +4,19 @@ Projeto Proffy
 
 Repositório de consulta (Criado junto com as aulas)
 
-##server
+## server
 - NodeJs
 - Typescript
 - Express
 - Knex
 - SQLite
 
-##web
+## web
 - ReactJs
 - Typescript
 - Axios
 
-##mobile
+## mobile
 - React Native
 - Expo
 - Axios
